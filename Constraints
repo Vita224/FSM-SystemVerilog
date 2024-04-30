@@ -1,0 +1,26 @@
+# Switches
+set_property PACKAGE_PIN V17 [get_ports {TA}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {TA}]
+set_property PACKAGE_PIN V16 [get_ports {TB}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {TB}]
+set_property PACKAGE_PIN W16 [get_ports {E}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {E}]
+set_property PACKAGE_PIN W17 [get_ports {RED}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {RED}]
+set_property PACKAGE_PIN W15 [get_ports {clk}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {clk}]
+
+# LEDs
+set_property PACKAGE_PIN U16 [get_ports {V1}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {V1}]
+set_property PACKAGE_PIN E19 [get_ports {A1}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {A1}]
+set_property PACKAGE_PIN U19 [get_ports {R1}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {R1}]
+set_property PACKAGE_PIN V19 [get_ports {V2}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {V2}]
+set_property PACKAGE_PIN W18 [get_ports {A2]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {A2}]
+set_property PACKAGE_PIN U15 [get_ports {R2}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {R2}]
+
