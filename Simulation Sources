@@ -1,0 +1,50 @@
+`timescale 1ns / 1ps
+
+module FSM_TB;
+    //entradas
+    logic TA;
+    logic TB;
+    logic E;
+    logic RED;
+    logic clk;
+    //salidas
+    logic V1;
+    logic A1;
+    logic R1;
+    logic V2;
+    logic A2;
+    logic R2;
+    //se combina con Design Source flip_flop_D
+    flip_flop_D dut(
+    .TA(TA),
+    .TB(TB),
+    .E(E),
+    .RED(RED),
+    .clk(clk),
+        
+    .V1(V1),
+    .A1(A1),
+    .R1(R1),    
+    .V2(V2),
+    .A2(A2),
+    .R2(R2)
+);
+    initial
+    begin
+        //se indica el valor de la entradas
+        E <=1;   #40;
+        TA <= 1; TB <=0; E <=0; RED <=0; #40;
+        TA <= 0; TB <=1; E <=0; RED <=0; #40;
+        TA <= 1; TB <=0; E <=0; RED <=0; #40;
+        TA <= 0; TB <=0; E <=1; RED <=0; #40;
+        TA <= 1; TB <=0; E <=0; RED <=0; #40;
+        TA <= 0; TB <=1; E <=0; RED <=0; #40;
+        TA <= 1; TB <=0; E <=1; RED <=0; #40;
+        TA <= 0; TB <=0; E <=0; RED <=1; #40;
+    end  
+    always
+    begin
+        clk <=1; #5;
+        clk <=0; #5;
+    end
+endmodule
