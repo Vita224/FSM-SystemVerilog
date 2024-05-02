@@ -46,7 +46,8 @@ Por último, seleccionamos “Generate Bitstream” para concerca y cargar el c�
 ![Imagen9](https://github.com/Vita224/FSM-SystemVerilog/assets/53021236/9d73491b-be42-459c-92f6-60f3a8c708f8) <br>
 Imagen 9. Se carga código en placa Basys3 para sus pruebas.<br>
 
-## Video de Youtube con explicación de elaboración de proyecto y simulación en placa Basys3.
+## Video de Youtube
+Aquí vemos la explicación de elaboración de proyecto y simulación en placa Basys3.
 Video : https://www.youtube.com/watch?v=PCk5yyFFD7o
 
 ---
