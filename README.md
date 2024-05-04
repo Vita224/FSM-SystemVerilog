@@ -3,7 +3,7 @@
 Máquina de Estados Finitos tipo Mealy.
 
 ## Descripción
-Se desarrolla un semaforo para este proyecto, el cual debe funcionar dependiendo si tiene carros o no en suc arril, tiene un boton de reset y cuenta con una caracteristica extra que coloca todos los semaforos en rojo, en caso de una emergencia.<br>
+Se desarrolla un semaforo para este proyecto, el cual debe funcionar dependiendo si tiene carros o no en su carril, tiene un boton de reset y cuenta con una caracteristica extra que coloca todos los semáforos en rojo, en caso de una emergencia.<br>
 
 ## Registro del Development Flow 🚀
 Se describe a continuación cada uno de los pasos del Development Flow, analizando los resultados obtenidos.<br>
@@ -51,7 +51,7 @@ Aquí vemos la explicación de elaboración de proyecto y simulación en placa B
 Video : https://www.youtube.com/watch?v=PCk5yyFFD7o<br>
 
 ---
-Desarrolado por Vitalino Guerra (091-19-1394) 😊
+Desarrollado por Vitalino Guerra (091-19-1394) 😊
 
 
 
