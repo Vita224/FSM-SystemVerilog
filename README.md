@@ -51,7 +51,7 @@ Aquí vemos la explicación de elaboración de proyecto y simulación en placa B
 Video : https://www.youtube.com/watch?v=PCk5yyFFD7o<br>
 
 ---
-Desarrollado por Vitalino Guerra (091-19-1394) 😊
+Desarrollado por Vitalino Guerra (091-19-1394)
 
 
 
