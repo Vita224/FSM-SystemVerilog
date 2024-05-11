@@ -1,13 +1,13 @@
 `timescale 1ns / 1ps
 
-module fsm_example_1(input logic CLK100MHZ,
+module fsm_example_2(input logic CLK100MHZ,
                     input logic [3:0]sw,
                     output logic [5:0]LED
                     );
 
     //logic clk_out1;
     
-    clk_psc my_clock(CLK100MHZ, clk_out);
-    Example_1 example (.clk(clk_out), .TA(sw[0]), .TB(sw[1]), .E(sw[2]), .RED(sw[3]), 
+    clk_psc clk_psc (CLK100MHZ, clk_out);
+    FSM example (.clk(clk_out), .TA(sw[0]), .TB(sw[1]), .E(sw[2]), .RED(sw[3]), 
                                     .V1(LED[0]), .A1(LED[1]), .R1(LED[2]), .V2(LED[3]), .A2(LED[4]), .R2(LED[5]));
 endmodule
