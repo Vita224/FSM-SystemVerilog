@@ -48,7 +48,7 @@ Imagen 9. Se carga código en placa Basys3 para sus pruebas.<br>
 
 ## Video de Youtube
 Aquí vemos la explicación de elaboración de proyecto y simulación en placa Basys3.<br>
-Video : https://www.youtube.com/watch?v=PCk5yyFFD7o<br>
+Video : https://www.youtube.com/watch?v=-6xYOpMH0-Q<br>
 
 ---
 Desarrollado por Vitalino Guerra (091-19-1394)
